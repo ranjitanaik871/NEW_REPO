@@ -1,0 +1,16 @@
+print("\t\t\tBRIGHT FUTURE INSTITUTE")
+print("___________________________________________")
+print("\t\t\tRegistration Receipt")
+print("-------------------------------------------")
+
+name=input("Student Name\t\t: ")
+id=int(input("Student ID \t\t: "))
+course=input("Course Name\t\t: ")
+dur=input("Duration\t\t: ")
+email=input("Email\t\t\t: ")
+num=int(input("Mobile Number\t\t: "))
+fee=float(input("Course fee \t\t: "))
+reg=float(input("Registration fee \t: "))
+print("----------------------------------------------------")
+remain=fee-reg
+print("Remaining fee \t\t: ",remain)
