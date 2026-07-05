@@ -1,11 +1,17 @@
+#Employee details
+
 name=input("Employee name:")
 id=int(input("Employee_id:"))
 depar=input("Department:")
 print("---------------------------------------------------\n")
+
 print("SALARY DETAILS\n")
 salary=float(input("Basic_Salary:"))
 hra=float(input("HRA:"))
 da=float(input("DA:"))
+
+#calculating gross salary and tax
+
 gross_salary=salary+hra+da
 print("Gross_salary:",gross_salary)
 Tax=float(input("Tax:"))
