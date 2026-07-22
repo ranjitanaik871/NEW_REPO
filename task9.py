@@ -1,3 +1,4 @@
+#company budget allocation center
 budget_amount=int(input("Budget amount: "))
 allocated_budget=int(input("Allocated budget: "))
 department_perfomance_score=int(input("Department performance score: "))

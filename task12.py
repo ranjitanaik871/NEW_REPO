@@ -3,7 +3,7 @@
 amount_in_inr=float(input("enter amount in INR:"))
 conversion_rate=float(input("enter the conversion rate:"))
 
-#converting INR to USD
+#convert INR to USD
 amount_in_usd=amount_in_inr/conversion_rate
 
 #applying %2 processing fee

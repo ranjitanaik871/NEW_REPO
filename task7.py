@@ -1,3 +1,4 @@
+#employee id and badge number generator
 department_code=input("Enter the department code: ")
 joining_year=input("Enter the joining year: ")
 emp_id=input("Enter the employee ID: ")

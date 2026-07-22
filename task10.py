@@ -1,3 +1,4 @@
+#employee age eligibility for retirement plan
 emp_age=int(input("Enter the employee age: "))
 if emp_age>=58:
     print("Eligible for retirement.")

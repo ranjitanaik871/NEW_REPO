@@ -1,4 +1,4 @@
-#calculate attendance percentage of an employee
+#calculating attendance percentage of an employee
 days_present=int(input("Enter the number of days present: "))
 total_working_days=int(input("Enter the number of working days: "))
 

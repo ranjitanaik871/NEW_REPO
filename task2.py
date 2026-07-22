@@ -1,9 +1,8 @@
 #calculating profit and loss
-
 revenue=float(input("Enter the revenue: "))
 expenses=float(input("Enter the expenses: "))
 profit=revenue-expenses 
-#using comparison operators to check profit or loss
+#comparison operators to check profit or loss
 if revenue>expenses:
     print("Profit:",profit)
 elif revenue<expenses:
